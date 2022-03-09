@@ -5,4 +5,4 @@ SELECT
 		JOIN SpotifyClone.historicos_de_reproducoes AS h
         ON u.usuario_id = h.usuario_id
 GROUP BY usuario
-ORDER BY usuario
+ORDER BY usuario;
