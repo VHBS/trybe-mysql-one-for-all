@@ -5,4 +5,4 @@ SELECT
     JOIN SpotifyClone.albums AS al
     ON  art.artista_id = al.artista_id
 WHERE artista = 'Walter Phoenix'
-ORDER BY album
+ORDER BY album;
